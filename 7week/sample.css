@@ -1,10 +1,9 @@
 @charset "utf-8";
-header, nav, section, article, aside, footer
-  {border:1px solid gray; margin:5px; padding:8px; width:1000px;}
-  section {width:750px; float:left;}
-  aside {width:221px; float:left; line-height:30px; }
-  footer {height:50px; clear:both;}
-  nav ul {margin:0; padding:0;}
-  nav ul li {display:inline; margin:5px;}
-  aside ul {margin:0; padding:0;}
-  aside ul li {display:block; margin:5px;}
+body {font-family: Verdana, sans-serif; font-size:0.8em;}
+header, nav, section, article, footer
+{border:1px soild gray; margin:5px; padding:8px;}
+section#displayArea { height:210px;}
+nav ul {margin:0; padding:0;}
+nav ul li {display:inline; margin:5px;}
+a {text-decoration:none;}
+#id_form {width:100px; height:14px; color:red;}
