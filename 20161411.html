@@ -2,20 +2,22 @@
 <html><head><meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-sacle=1"/>
   <style>
-    body{background-color:#510000;}
+    body{background-color:#5CD1E5;}
+    {border:1px solid gray; margin:5px; padding:8px; width:1000px;}
     *{ box-sizing:border-box; padding:0; margin:0;} .row::after{content:"";clear:both; display:table;}
     .col-1{width:8.33%;} .col-2{width:16.66%;} .col-3{width:25%;} .col-4{width:33.33%;}
     .col-5{width:41.66%;} .col-6{width:50%;} .col-7{width:58.33%;} .col-8{width:66.66%;}
-    .col-9{width:75%;} .col-10{width:83.33%;} .col-11{width:91.66%;} .col-12{width:100%;}
+    .col-9{width:75%; height:1300px;} .col-10{width:83.33%;} .col-11{width:91.66%;} .col-12{width:100%;}
     [class*="col-"] {float:left; padding:10px;} .header,
     .footer{background-color:lightgray; color:blue; padding:10px;}
-    .header img {width:1300px; height:250px;}
+    .header img {width:1300px; he}
+    nav ul {background-color:gray; border:2px solid black; margin:5px; padding:10px;margin-bottom:10px; margin-top:10px;}
+    nav ul li {display:inline; margin:5px;}
     .menu ul, .banner ul{list-style-type:none;}
-    .menu li{background-color:pink; color:black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray;}
+    .menu li{background-color:#E8DB5F; color:black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray;}
     .menu li:hover{background-color:red;}
-    .banner li{border:2px solid black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray;}
-    .banner li img{width:30%; vertical-align:middle;}
-    @media only screen and (max-width: 768px) { [class*="col-"]{width: 100%;}}
+    .banner li{background-color:#E8DB5F; border:2px solid black; padding:10px; margin-bottom:25px; box-shadow:0 1px 3px gray;}
+    
   </style> 
 <title>나용선 개인별 프로젝트</title>
 </head>
@@ -25,12 +27,14 @@
    </header>
   <div class="row"></div>
   <div id="main">
-    <nav class="col-3 menu">   <!-- 메뉴 -->
-      <ul><li>이름</li><li>확인</li><li></li><li>부산</li></ul></nav>
-    <section class="col-6">
-      <h3>대전광역시</h3><p>우리나라 중앙에 위치한 150만.....</p></section>
+    <nav>   <!-- 메뉴 -->
+      <ul><li><a href="https://github.com/" target="_blank">github</a></li><li><a href="https://www.google.co.kr/" target="_blank">google</a></li>
+          <li><a href="https://naver.com" target="_blank">naver</a></li></ul></nav>
+    <section class="col-9">
+      <h3>나용선</h3><img src="https://2016141dju.github.io/images/me.JPG" alt="사진"/><p>생일 : 1997년 4월 29일</p>
+      <p>성별 : 남</p><p>직업 : 대전대학교 학생</p><br/></section>
     <aside class="col-3 banner">
-      <ul><li><a href="https://2016141dju.github.io/index.html" target="_blank">인터넷 응용</a></li><li>캡스톤 디자인</li><li>자격증</li></ul></aside>
+      <ul><li><a href="https://2016141dju.github.io/index.html" target="_blank">인터넷 응용</a></li><li>캡스톤 디자인</li><li>자격증</li><li>기타</li></ul></aside>
   </div><div class="row"></div>
-  <footer class="footer"><h4>Copright 20XX Korea.</h4></footer>
+  <footer class="footer"><h4>20161411 나용선 개인별 프로젝트</h4></footer>
 </body></html>
